@@ -25,6 +25,16 @@ class ProfileList(generics.ListCreateAPIView):
             distinct=True
         )
     ).order_by('-created_on')
+    filter_backends = [
+        filters.OrderingFilter
+    ]
+    ordering_fields = [
+        'posts_number',
+        'followers_number',
+        'following_number',
+        'owner__following__created_on',
+        'owner__followed__created_on',
+    ]
 
 
 class ProfileDetail(generics.RetrieveUpdateDestroyAPIView):
@@ -35,7 +45,20 @@ class ProfileDetail(generics.RetrieveUpdateDestroyAPIView):
     permission_classes = [
         IsOwnerOrReadOnly
         ]
-    queryset = Profile.objects.all()
+    queryset = Profile.objects.annotate(
+        posts_number=Count(
+            'owner__post',
+            distinct=True
+        ),
+        followers_number=Count(
+            'owner__followed',
+            distinct=True
+            ),
+        following_number=Count(
+            'owner__following',
+            distinct=True
+        )
+    ).order_by('-created_on')
 
     def delete(self, request, pk):
         """
