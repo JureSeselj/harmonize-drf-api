@@ -12,6 +12,7 @@ class Post(models.Model):
         ('Portuguese', 'Portuguese'),
         ('Greek', 'Greek'),
         ('Italian', 'Italian'),
+        ('Croatian', 'Croatian'),
         ('Turkish', 'Turkish'),
         ('French', 'French'),
         ('Moroccan', 'Moroccan'),
