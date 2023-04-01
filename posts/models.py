@@ -18,7 +18,6 @@ class Post(models.Model):
         ('Moroccan', 'Moroccan'),
         ('British', 'British'),
         ('German', 'German'),
-        ('Austrian', 'Austrian'),
         ('Lebanese', 'Lebanese'),
         ('Caribbean', 'Caribbean'),
         ('Indian', 'Indian'),
