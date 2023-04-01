@@ -5,6 +5,14 @@
 This repository serves as Harmonize App Backend REST API. Its purpose is to provide data to be used in Front-End design with [React. js](https://reactjs.org/). For the main project's documentation refer to [Harmonize]() project.
 The API endpoint can be found [here]()
 
+## Table of Contents
+  - [User Stories](#user-stories)
+  - [Database](#database)
+  - [Technologies Used](#technologies-used)
+  - [Validation](#validation)
+  - [Testing](#testing)
+  - [Credits](#credits)
+
 ## User Stories - UX
 
 The back-end section of the project focuses on its administration side and covers one user story:
@@ -60,3 +68,15 @@ The following models were created to represent the database model structure of t
 
 - Python
 - Django
+
+### Libraries & Tools
+
+## Validation
+
+## Testing
+
+### Manual testing of user stories
+
+### Automated testing
+
+## Credits
