@@ -26,8 +26,6 @@ CLOUDINARY_STORAGE = {
 MEDIA_URL = '/media/'
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
-USE_TZ = True
-
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -40,7 +38,7 @@ REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS':
         'rest_framework.pagination.PageNumberPagination',
         'PAGE_SIZE': 10,
-        'DATETIME_FORMAT': '%d %B %Y %H:%M',
+        'DATETIME_FORMAT': '%d %B %Y',
 }
 # Set the default renderer to JSON for the production environment
 if 'DEV' not in os.environ:
