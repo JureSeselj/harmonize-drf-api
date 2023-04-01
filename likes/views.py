@@ -1,7 +1,7 @@
 from rest_framework import generics, permissions
 from .models import Like
 from .serializers import LikeSerializer
-from snapfood_drf_api.permissions import IsOwnerOrReadOnly
+from harmonize_drf_api.permissions import IsOwnerOrReadOnly
 
 
 class LikeList(generics.ListCreateAPIView):

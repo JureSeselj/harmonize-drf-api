@@ -4,7 +4,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from .models import Post
 from .serializers import PostSerializer
-from harmonize_drf_api.premissions import IsOwnerOrReadOnly
+from harmonize_drf_api.permissions import IsOwnerOrReadOnly
 
 
 class PostList(APIView):
