@@ -9,7 +9,7 @@ class PostListViewTests(APITestCase):
         """
         Automatically runs before every test method
         """
-        User.objects.create_user(username='aleks', password='password')
+        User.objects.create_user(username='jure', password='password')
 
     def test_not_logged_in_user_cannot_create_post(self):
         """
@@ -22,10 +22,29 @@ class PostListViewTests(APITestCase):
         """
         Test to ensure logged-in user can create a post
         """
-        self.client.login(username='aleks', password='password')
+        self.client.login(username='jure', password='password')
         response = self.client.post('/posts/', {'title': 'post title',
                                                 'category': 'Italian'})
         # print('response:', response.data)
         post_count = Post.objects.count()
         self.assertEqual(post_count, 1)
         self.assertEqual(response.status_code, status.HTTP_201_CREATED)
+
+    def test_post_must_include_all_required_fields(self):
+        """
+        Test to verify if post can be created
+        without filling in mandatory fields (post title & category)
+        """
+        self.client.login(username='jure', password='password')
+        response = self.client.post('/posts/', {'category': 'Spanish'})
+        self.assertEqual(response.status_code, status.HTTP_400_BAD_REQUEST)
+
+    def test_user_can_list_posts(self):
+        """
+        Test that posts present in the database can be listed
+        """
+        jure = User.objects.get(username='jure')
+        Post.objects.create(owner=jure, title='post title')
+        response = self.client.get('/posts/')
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+        # print('response.data:', response.data)
