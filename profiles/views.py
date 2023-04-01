@@ -7,7 +7,7 @@ from .serializers import ProfileSerializer
 from harmonize_drf_api.permissions import IsOwnerOrReadOnly
 
 
-class ProfileList(generics.ListCreateAPIView):
+class ProfileList(generics.ListAPIView):
     """
     A class view for the ProfileList
     """
