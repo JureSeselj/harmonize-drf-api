@@ -3,7 +3,7 @@
 # Overview
 
 This repository serves as Harmonize App Backend REST API. The purpose is to provide data to be used in Front-End design with [React. js](https://reactjs.org/). For the main projects documentation refer to [Harmonize](https://github.com/JureSeselj/harmonize-drf-api) project.
-The API endpoint can be found [here]()
+The API endpoint can be found [here](https://harmonize-drf-api.herokuapp.com/)
 
 ## Table of Contents
   - [Overview](#overview)
