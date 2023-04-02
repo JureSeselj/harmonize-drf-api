@@ -2,7 +2,7 @@
 
 # Overview
 
-This repository serves as Harmonize App Backend REST API. Its purpose is to provide data to be used in Front-End design with [React. js](https://reactjs.org/). For the main projects documentation refer to [Harmonize](https://github.com/JureSeselj/harmonize-drf-api) project.
+This repository serves as Harmonize App Backend REST API. The purpose is to provide data to be used in Front-End design with [React. js](https://reactjs.org/). For the main projects documentation refer to [Harmonize](https://github.com/JureSeselj/harmonize-drf-api) project.
 The API endpoint can be found [here]()
 
 ## Table of Contents
@@ -119,6 +119,20 @@ Like | Create & delete | A like can be created or deleted (like / unlike post) |
 Follower | Create & delete | Follow or unfollow user | Works as expected
 
 In addition, posts, comments, likes and following can be created by logged-in users only. Users can only update or delete the content which was created by themselves.
+
+- USER
+<details><summary>Create user</summary>
+    <img src="">
+    </details>
+    <details><summary>Change user permissions</summary>
+    <img src="">
+    </details>
+    
+- PROFILE
+- POST
+- COMMENT
+- LIKE
+- FOLLOWER
 
 ### Automated testing
 
