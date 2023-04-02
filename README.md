@@ -148,10 +148,10 @@ In addition, posts, comments, likes and following can be created by logged-in us
 
 #### PROFILE
   <details><summary>Update profile</summary>
-    <img src="">
+    <img src="documentation/testing/profile-update-test.png">
   </details>
         <details><summary>Delete profile</summary>
-    <img src="">
+    <img src="documentation/testing/profile-delete-test.png">
   </details>
 
 ---
