@@ -192,6 +192,20 @@ In addition, posts, comments, likes and following can be created by logged-in us
 
 ## Credits
 
+### Content
+
+* Project setup is based on [Code Institute](https://codeinstitute.net) tutorial video Django REST Framework.
+* The Comment app is copied from [Code Institute](https://codeinstitute.net) tutorial video Django REST Framework and adjusted for the Cutback needs.
+* Email confirmation functionality inspired from [Stack Overflow](https://stackoverflow.com/questions/24809505/django-allauth-how-to-properly-use-email-confirmed-signal-to-set-user-to-active).
+* Deployment section is based on the owner's previous project [TastyBlog](https://github.com/JureSeselj/tasty_blog).
+
+### Information Sources / Resources
+
+* [Code Institute](https://codeinstitute.net/ie/)
+* [Free Code Camp](https://www.freecodecamp.org/learn)
+* [W3Schools - Python](https://www.w3schools.com/python/)
+* [Stack Overflow](https://stackoverflow.com/)
+
 [Back to Top](#table-of-contents)
 
 ---
