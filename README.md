@@ -138,10 +138,10 @@ In addition, posts, comments, likes and following can be created by logged-in us
 
 #### USER
   <details><summary>Create user</summary>
-    <img src="documentation/testing/create-user.jpg">
+    <img src="documentation/testing/create-user-test.png">
   </details>
   <details><summary>Change user permissions</summary>
-    <img src="">
+    <img src="documentation/testing/user-change-permission-test.png">
   </details>
 
 ---
