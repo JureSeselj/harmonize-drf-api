@@ -118,6 +118,8 @@ Comment | Create, update & delete | A comment can be created, edited or deleted 
 Like | Create & delete | A like can be created or deleted (like / unlike post) | Works as expected
 Follower | Create & delete | Follow or unfollow user | Works as expected
 
+In addition, posts, comments, likes and following can be created by logged-in users only. Users can only update or delete the content which was created by themselves.
+
 ### Automated testing
 
 ## Credits
