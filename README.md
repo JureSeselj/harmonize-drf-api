@@ -87,6 +87,13 @@ The following models were created to represent the database model structure of t
 
 ## Validation
 
+### PEP8 Validation
+
+All code was formatted using [autopep8](https://pypi.org/project/autopep8/).
+Additionally, manual validation was done with [PEP8 online](http://pep8online.com).
+
+The only code which was left with long-line prompts is `settings.py` for code functionality.
+<img src="documentation/ttesting/pep8-validation.png">
 ## Testing
 
 ### Manual testing of user stories
