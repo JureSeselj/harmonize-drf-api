@@ -134,8 +134,6 @@ Follower | Create & delete | Follow or unfollow user | Works as expected
 
 In addition, posts, comments, likes and following can be created by logged-in users only. Users can only update or delete the content which was created by themselves.
 
----
-
 #### USER
   <details><summary>Create user</summary>
     <img src="documentation/testing/create-user-test.png">
@@ -203,6 +201,16 @@ In addition, posts, comments, likes and following can be created by logged-in us
 ---
 
 ### Automated testing
+
+Automated testing was done using the Django Rest Framework APITestCase (a very similar to Django's TestCase). The report of overall testing was produced using the coverage tool (```$ coverage report``` & ```$ coverage html``` commands)
+
+- Tests summary
+
+<img src="">
+
+<details><summary>Detailed coverage report</summary>
+<img src="">
+</details>
 
 ## Credits
 
