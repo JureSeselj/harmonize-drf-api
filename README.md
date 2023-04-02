@@ -93,10 +93,28 @@ All code was formatted using [autopep8](https://pypi.org/project/autopep8/).
 Additionally, manual validation was done with [PEP8 online](http://pep8online.com).
 
 The only code which was left with long-line prompts is `settings.py` for code functionality.
+
 <img src="documentation/testing/pep8-validation.png">
+
 ## Testing
 
+The following tests were carried out on the app:
+1. Manual testing of user stories
+2. Automated testing
+
 ### Manual testing of user stories
+
+- As an admin, I want to be able to create, edit and delete the users, posts, comments and likes, so that I can have a control over the content of the application and remove any potential inappropriate content
+
+**Test** | **Action** | **Expected Result** | **Actual Result**
+-------- | ------------------- | ------------------- | -----------------
+User | Create, update & delete user | A user can be created, edited or deleted | Works as expected
+User | Change permissions | User permissions can be updated | Works as expected
+Profile | Create, update & delete | User profile can be created, edited or deleted | Works as expected
+Post | Create, update & delete | A post can be created, edited or deleted | Works as expected
+Comment | Create, update & delete | A comment can be created, edited or deleted | Works as expected
+Like | Create & delete | A like can be created or deleted (like / unlike post) | Works as expected
+Follower | Create & delete | Follow or unfollow user | Works as expected
 
 ### Automated testing
 
