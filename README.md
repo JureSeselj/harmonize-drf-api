@@ -2,7 +2,7 @@
 
 # Overview
 
-This repository serves as Harmonize App Backend REST API. Its purpose is to provide data to be used in Front-End design with [React. js](https://reactjs.org/). For the main project's documentation refer to [Harmonize]() project.
+This repository serves as Harmonize App Backend REST API. Its purpose is to provide data to be used in Front-End design with [React. js](https://reactjs.org/). For the main projects documentation refer to [Harmonize](https://github.com/JureSeselj/harmonize-drf-api) project.
 The API endpoint can be found [here]()
 
 ## Table of Contents
@@ -62,6 +62,8 @@ The following models were created to represent the database model structure of t
 - ForeignKey relation between the owner field and the User model id field
 - ForeignKey relation between the post field and the Post model post field
 
+[Back to Top](#table-of-contents)
+
 ## Technologies Used
 
 ### Languages & Frameworks
@@ -119,3 +121,14 @@ Follower | Create & delete | Follow or unfollow user | Works as expected
 ### Automated testing
 
 ## Credits
+
+[Back to Top](#table-of-contents)
+
+---
+
+**<div align='center'>Copyright @ Jure Seselj 2023</div>**
+<div align='center'>
+    <a href="https://www.linkedin.com/in/jure-seselj-062654192/" target="_blank">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+    </a>
+</div>
