@@ -120,6 +120,8 @@ Follower | Create & delete | Follow or unfollow user | Works as expected
 
 In addition, posts, comments, likes and following can be created by logged-in users only. Users can only update or delete the content which was created by themselves.
 
+---
+
 #### USER
   <details><summary>Create user</summary>
     <img src="">
@@ -128,6 +130,8 @@ In addition, posts, comments, likes and following can be created by logged-in us
     <img src="">
   </details>
 
+---
+
 #### PROFILE
   <details><summary>Update profile</summary>
     <img src="">
@@ -135,6 +139,8 @@ In addition, posts, comments, likes and following can be created by logged-in us
         <details><summary>Delete profile</summary>
     <img src="">
   </details>
+
+---
 
 #### POST
   <details><summary>Create post</summary>
@@ -147,6 +153,8 @@ In addition, posts, comments, likes and following can be created by logged-in us
     <img src="">
   </details>
 
+---
+
 #### COMMENT
   <details><summary>Create comment</summary>
     <img src="">
@@ -158,6 +166,8 @@ In addition, posts, comments, likes and following can be created by logged-in us
     <img src="">
   </details>
 
+---
+
 #### LIKE
   <details><summary>Create like - like post</summary>
     <img src="">
@@ -166,6 +176,8 @@ In addition, posts, comments, likes and following can be created by logged-in us
     <img src="">
   </details>
 
+---
+
 #### FOLLOWER
   <details><summary>Create - Follow user</summary>
     <img src="">
@@ -173,6 +185,8 @@ In addition, posts, comments, likes and following can be created by logged-in us
   <details><summary>Delete - Unfollow user</summary>
     <img src="">
   </details>
+
+---
 
 ### Automated testing
 
