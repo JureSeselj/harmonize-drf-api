@@ -188,10 +188,10 @@ In addition, posts, comments, likes and following can be created by logged-in us
 
 #### LIKE
   <details><summary>Create like - like post</summary>
-    <img src="">
+    <img src="docs/testing/like-create-test.png">
   </details>
   <details><summary>Delete like - unlike post</summary>
-    <img src="">
+    <img src="docs/testing/like-delete-test.png">
   </details>
 
 ---
