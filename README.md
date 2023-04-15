@@ -175,13 +175,13 @@ In addition, posts, comments, likes and following can be created by logged-in us
 
 #### COMMENT
   <details><summary>Create comment</summary>
-    <img src="">
+    <img src="docs/testing/comment-create-test.png">
   </details>
   <details><summary>Update comment</summary>
-    <img src="">
+    <img src="docs/testing/comment-update-test.png">
   </details>
   <details><summary>Delete comment</summary>
-    <img src="">
+    <img src="docs/testing/comment-delete-test.png">
   </details>
 
 ---
