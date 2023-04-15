@@ -41,7 +41,7 @@ The back-end section of the project focuses on its administration side and cover
 ## Database
 
 The following models were created to represent the database model structure of the application:
-<img src="documentation/readme/harmonize-database-diagram.png">
+<img src="docs/readme/harmonize-database-diagram.png">
 
 #### User Model
 
@@ -116,7 +116,7 @@ Additionally, manual validation was done with [PEP8 online](http://pep8online.co
 
 The only code which was left with long-line prompts is `settings.py` for code functionality.
 
-<img src="documentation/testing/pep8-validation.png">
+<img src="docs/testing/pep8-validation.png">
 
 ## Testing
 
@@ -142,27 +142,27 @@ In addition, posts, comments, likes and following can be created by logged-in us
 
 #### USER
   <details><summary>Create user</summary>
-    <img src="documentation/testing/create-user-test.png">
+    <img src="docs/testing/create-user-test.png">
   </details>
   <details><summary>Change user permissions</summary>
-    <img src="documentation/testing/user-change-permission-test.png">
+    <img src="docs/testing/user-change-permission-test.png">
   </details>
 
 ---
 
 #### PROFILE
   <details><summary>Update profile</summary>
-    <img src="documentation/testing/profile-update-test.png">
+    <img src="docs/testing/profile-update-test.png">
   </details>
         <details><summary>Delete profile</summary>
-    <img src="documentation/testing/profile-delete-test.png">
+    <img src="docs/testing/profile-delete-test.png">
   </details>
 
 ---
 
 #### POST
   <details><summary>Create post</summary>
-    <img src="">
+    <img src="docs/testing/post-create-test.png">
   </details>
   <details><summary>Update post</summary>
     <img src="">
