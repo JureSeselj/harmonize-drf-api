@@ -165,10 +165,10 @@ In addition, posts, comments, likes and following can be created by logged-in us
     <img src="docs/testing/post-create-test.png">
   </details>
   <details><summary>Update post</summary>
-    <img src="">
+    <img src="docs/testing/post-update-test.png">
   </details>
   <details><summary>Delete post</summary>
-    <img src="">
+    <img src="docs/testing/post-delete-test.png">
   </details>
 
 ---
