@@ -198,10 +198,10 @@ In addition, posts, comments, likes and following can be created by logged-in us
 
 #### FOLLOWER
   <details><summary>Create - Follow user</summary>
-    <img src="">
+    <img src="docs/testing/follower-create-test.png">
   </details>
   <details><summary>Delete - Unfollow user</summary>
-    <img src="">
+    <img src="docs/testing/follower-delete-test.png">
   </details>
 
 ---
