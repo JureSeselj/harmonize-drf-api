@@ -15,7 +15,7 @@ class PostListViewTests(APITestCase):
         """
         Test to ensure not logged-in user cannot create a post
         """
-        response = self.client.post('/posts/', {'category': 'Italian'})
+        response = self.client.post('/posts/', {'category': 'Quotes'})
         self.assertEqual(response.status_code, status.HTTP_403_FORBIDDEN)
 
     def test_logged_in_user_can_create_post(self):
@@ -24,7 +24,7 @@ class PostListViewTests(APITestCase):
         """
         self.client.login(username='jure', password='password')
         response = self.client.post('/posts/', {'title': 'post title',
-                                                'category': 'Italian'})
+                                                'category': 'Nature'})
         # print('response:', response.data)
         post_count = Post.objects.count()
         self.assertEqual(post_count, 1)
@@ -36,7 +36,7 @@ class PostListViewTests(APITestCase):
         without filling in mandatory fields (post title & category)
         """
         self.client.login(username='jure', password='password')
-        response = self.client.post('/posts/', {'category': 'Spanish'})
+        response = self.client.post('/posts/', {'category': 'Quotes'})
         self.assertEqual(response.status_code, status.HTTP_400_BAD_REQUEST)
 
     def test_user_can_list_posts(self):
@@ -59,11 +59,11 @@ class PostDetailViewTests(APITestCase):
         rosa = User.objects.create_user(username='rosa', password='password')
         Post.objects.create(
             owner=jure, title='post title',
-            description='test', category='Croatian'
+            description='test', category='Quotes'
         )
         Post.objects.create(
             owner=rosa, title='post title2',
-            description='test2', category='Spanish'
+            description='test2', category='Nature'
         )
 
     def test_can_retrieve_existing_post(self):
@@ -88,7 +88,7 @@ class PostDetailViewTests(APITestCase):
         """
         self.client.login(username='jure', password='password')
         response = self.client.put('/posts/1/', {'title': 'updated title',
-                                                 'category': 'Greek'})
+                                                 'category': 'Lifestyle'})
         post = Post.objects.filter(pk=1).first()
         self.assertEqual(post.title, 'updated title')
         self.assertEqual(response.status_code, status.HTTP_200_OK)
@@ -99,7 +99,7 @@ class PostDetailViewTests(APITestCase):
         """
         self.client.login(username='jure', password='password')
         response = self.client.put('/posts/2/', {'title': 'updated title',
-                                                 'category': 'Spanish'})
+                                                 'category': 'Nature'})
         self.assertEqual(response.status_code, status.HTTP_403_FORBIDDEN)
 
     def test_user_can_delete_their_own_post(self):
