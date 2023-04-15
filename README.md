@@ -215,7 +215,7 @@ Automated testing was done using the Django Rest Framework APITestCase (a very s
 <img src="docs/testing/apitestcase-harmonize.png">
 
 <details><summary>Detailed coverage report</summary>
-<img src="">
+<img src="docs/testing/coverage-report-harmonize.png">
 </details>
 
 ## Credits
