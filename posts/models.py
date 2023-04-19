@@ -36,7 +36,7 @@ class Post(models.Model):
     category = models.CharField(max_length=50, choices=category_choices)
     image = models.ImageField(
         upload_to='images/',
-        default='../default_post_umaui6',
+        default='../default_post_e2egqa',
         blank=True
     )
 

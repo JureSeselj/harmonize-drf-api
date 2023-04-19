@@ -11,7 +11,7 @@ from .settings import (
 def home(request):
     return Response({
         'status': 200,
-        'message': "Hi there, welcome to Harmonize Django REST Framework API"
+        'message': "Hi there, Welcome to Harmonize Django REST Framework API"
         })
 
 

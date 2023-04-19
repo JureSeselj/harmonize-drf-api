@@ -29,7 +29,7 @@ class Migration(migrations.Migration):
                 ('updated_on', models.DateTimeField(auto_now=True)),
                 ('title', models.CharField(max_length=200)),
                 ('description', models.TextField(blank=True)),
-                ('image', models.ImageField(blank=True, default='../default_post_umaui6', upload_to='images/')),
+                ('image', models.ImageField(blank=True, default='../default_post_e2egqa', upload_to='images/')),
                 ('category', models.ManyToManyField(to='posts.Category')),
                 ('owner', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
             ],
