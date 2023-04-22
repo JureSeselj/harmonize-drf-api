@@ -17,7 +17,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='post',
             name='category',
-            field=models.CharField(choices=[('Spanish', 'Spanish'), ('Polish', 'Polish'), ('Portuguese', 'Portuguese'), ('Greek', 'Greek'), ('Italian', 'Italian'), ('Croatian', 'Croatian'), ('Turkish', 'Turkish'), ('French', 'French'), ('Moroccan', 'Moroccan'), ('British', 'British'), ('German', 'German'), ('Austrian', 'Austrian'), ('Lebanese', 'Lebanese'), ('Caribbean', 'Caribbean'), ('Indian', 'Indian'), ('Thai', 'Thai'), ('Japanese', 'Japanese'), ('Chinese', 'Chinese'), ('Mexican', 'Mexican'), ('American', 'American'), ('Other', 'Other')], default='exit', max_length=50),
+            field=models.CharField(choices=[('Quotes', 'Quotes'), ('Animals', 'Animals'), ('Lifestyle', 'Lifestyle'), ('Fun Fact', 'Fun Fact'), ('Creative', 'Creative'), ('Nature', 'Nature'), ('Arts & Entertainmen', 'Arts & Entertainmen'), ('Books', 'Books'), ('Design & Fashion', 'Design & Fashion'), ('Education', 'Education'), ('Food & Beverage', 'Food & Beverage'), ('Health/Beauty', 'Health/Beauty'), ('Sport', 'Sport'), ('Clothing (Brand)', 'Clothing (Brand)'), ('Automotive', 'Automotive'), ('Games/Toys', 'Games/Toys'), ('Musician/Band', 'Musician/Band'), ('Movie', 'Movie'), ('Other', 'Other')], default='exit', max_length=50),
             preserve_default=False,
         ),
         migrations.DeleteModel(
