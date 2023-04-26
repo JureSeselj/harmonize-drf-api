@@ -114,7 +114,6 @@ INSTALLED_APPS = [
 ]
 
 SITE_ID = 1
-
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',

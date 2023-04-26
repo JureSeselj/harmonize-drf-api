@@ -16,6 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from .views import home, logout_route
+from rest_framework.decorators import api_view
+from rest_framework.views import APIView
 
 urlpatterns = [
     path('', home),
